@@ -1,1 +1,1 @@
-web: node ./bin/www
+web: DEBUG="mypoint-api:*" node ./bin/www
