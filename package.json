@@ -5,6 +5,9 @@
   "scripts": {
     "start": "DEBUG=\"mypoint-api:*\" nodemon ./bin/www"
   },
+  "engine": {
+    "node": "10"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
