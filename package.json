@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=\"mypoint-api:*\" node ./bin/www",
-    "start:nodemon": "DEBUG=\"mypoint-api:*\" nodemon ./bin/www"
+    "start": "DEBUG=\"mypoint-api:*\" nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
